@@ -15,9 +15,7 @@ export const BRAND = {
 };
 
 export const NAV_LINKS = [
-  { label: 'How It Works', href: '#how-it-works' },
-  { label: 'Pricing', href: '#pricing' },
+  { label: 'Process & Plans', href: '#process-section' },
   { label: 'Safety', href: '#safety' },
-  { label: 'FAQ', href: '#faq' },
   { label: 'Contact', href: '#contact' },
 ];

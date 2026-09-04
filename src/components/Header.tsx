@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Menu, X, Heart, MessageCircle } from 'lucide-react';
+import { Menu, X, Heart } from 'lucide-react';
 import { BRAND, NAV_LINKS } from '@/data/brand';
 
 export default function Header() {
@@ -43,18 +43,6 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="hidden lg:block">
-          <a
-            href={BRAND.whatsappChannel}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-5 py-2.5 text-sm font-semibold text-white shadow-md transition hover:scale-105 hover:shadow-lg"
-          >
-            <MessageCircle className="h-4 w-4" />
-            Join WhatsApp Channel
-          </a>
-        </div>
-
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="flex h-10 w-10 items-center justify-center rounded-full bg-maroon-700/10 text-maroon-700 lg:hidden"
@@ -77,15 +65,6 @@ export default function Header() {
                 {link.label}
               </a>
             ))}
-            <a
-              href={BRAND.whatsappChannel}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-5 py-3 text-sm font-semibold text-white"
-            >
-              <MessageCircle className="h-4 w-4" />
-              Join WhatsApp Channel
-            </a>
           </nav>
         </div>
       )}

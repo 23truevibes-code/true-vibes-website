@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useCallback, ReactNode } from 'react';
 
-export type LegalDocId = 'terms' | 'privacy' | 'refund' | 'cookie';
+export type LegalDocId = 'terms' | 'privacy' | 'refund' | 'cookie' | 'contact';
 
 interface LegalModalContextValue {
   openModal: (id: LegalDocId) => void;
