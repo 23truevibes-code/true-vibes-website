@@ -1,4 +1,4 @@
-import { Heart, Mail, Phone, MapPin, FileText, Shield, RotateCcw, Cookie, MessageSquare } from 'lucide-react';
+import { Heart, Mail, MapPin, FileText, Shield, RotateCcw, Cookie, MessageSquare } from 'lucide-react';
 import { BRAND } from '@/data/brand';
 import { useLegalModal, type LegalDocId } from './LegalModalContext';
 
@@ -45,12 +45,6 @@ export default function Footer() {
                   {BRAND.email}
                 </a>
               </li>
-              <li>
-                <a href={`tel:${BRAND.phoneRaw}`} className="flex items-start gap-2.5 transition hover:text-champagne-300">
-                  <Phone className="mt-0.5 h-4 w-4 shrink-0 text-champagne-500" />
-                  {BRAND.phone}
-                </a>
-              </li>
               <li className="flex items-start gap-2.5">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-champagne-500" />
                 {BRAND.address}
@@ -80,8 +74,9 @@ export default function Footer() {
         {/* Grievance */}
         <div className="mt-10 rounded-2xl border border-champagne-400/15 bg-maroon-900/30 p-5">
           <p className="text-xs leading-relaxed text-cream-200/60">
-            <span className="font-semibold text-champagne-400">Grievance Redressal:</span> DPDP data deletion & requests resolved within 7 business days via{' '}
-            <a href={`mailto:${BRAND.email}`} className="underline hover:text-champagne-300">{BRAND.email}</a>.
+            <span className="font-semibold text-champagne-400">Grievance Officer:</span> Vishal Kisave<br />
+            <span className="font-semibold text-champagne-400">Email:</span>{' '}
+            <a href={`mailto:${BRAND.email}`} className="underline hover:text-champagne-300">{BRAND.email}</a>
           </p>
         </div>
 

@@ -6,7 +6,7 @@ const BADGES = [
   { icon: Lock, label: 'Zero Public Catalog' },
 ];
 
-const COUPLE_IMG = 'https://images.unsplash.com/photo-1543807535-eceef0bc6599?auto=format&fit=crop&w=800&q=80';
+const COUPLE_IMG = 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80';
 
 export default function Hero() {
   return (
@@ -28,7 +28,7 @@ export default function Hero() {
               <span className="text-gradient-gold">Built on Mutual Trust &amp; Safety</span>
             </h1>
             <p className="mx-auto mb-8 max-w-xl animate-fade-in-up text-base leading-relaxed text-cream-200/80 sm:text-lg lg:mx-0">
-              An exclusive, verified introduction service for individuals seeking genuine, long-term relationships. 100% Government ID verified, strict mutual consent protocols, and complete data privacy.
+              An exclusive, verified introduction service for individuals seeking genuine, long-term relationships. Government ID verified, strict mutual consent protocols, and complete data privacy.
             </p>
 
             <div className="mb-8 flex flex-wrap items-center justify-center gap-3 animate-fade-in lg:justify-start">
@@ -58,7 +58,7 @@ export default function Hero() {
               <img
                 src={COUPLE_IMG}
                 alt="A couple sitting at a cafe table enjoying coffee together"
-                className="h-full w-full object-cover"
+                className="aspect-[4/3] w-full object-cover sm:aspect-video"
                 loading="eager"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-maroon-950/40 to-transparent" />

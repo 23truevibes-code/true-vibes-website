@@ -7,8 +7,8 @@ interface Item {
 }
 
 const eligibility: Item[] = [
-  { icon: ShieldCheck, title: 'Strictly 21+ Mandate', desc: 'No exceptions. A valid government-issued photo ID is mandatory for every member before onboarding.' },
-  { icon: UserX, title: 'Marital Status Warranty', desc: 'Members must be unmarried, legally divorced, or widowed. False declarations result in immediate termination.' },
+  { icon: ShieldCheck, title: 'Eligibility Warranty', desc: 'All members declare they are legally eligible and provide authentic verification. False declarations result in immediate termination.' },
+  { icon: UserX, title: 'Genuine Intent Only', desc: 'Strictly genuine matchmaking for meaningful connections. Zero paid companionship of any kind. Anti-commercial use.' },
   { icon: Gavel, title: 'Zero Criminal Record', desc: 'All members warrant they have no criminal convictions or pending cases. True Vibes reserves the right to verify and reject.' },
   { icon: Ban, title: 'Anti-Escort & Anti-Commercial', desc: 'Strictly genuine matchmaking only. Zero escort services, commercial sex work, or paid companionship of any kind.' },
   { icon: Users2, title: 'Staff Protection Policy', desc: 'Zero tolerance for harassment, threats, or abuse toward True Vibes staff. Violations result in immediate termination and legal action.' },

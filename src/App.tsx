@@ -4,6 +4,7 @@ import AgeGate from '@/components/AgeGate';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import ProcessSection from '@/components/ProcessSection';
+import RegistrationForm from '@/components/RegistrationForm';
 import PlansSection from '@/components/PlansSection';
 import Safety from '@/components/Safety';
 import Footer from '@/components/Footer';
@@ -17,6 +18,7 @@ export default function App() {
         <main>
           <Hero />
           <ProcessSection />
+          <RegistrationForm />
           <PlansSection />
           <Safety />
         </main>

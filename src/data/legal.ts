@@ -10,7 +10,7 @@ export const LEGAL_DOCS: Record<string, LegalDoc> = {
   terms: {
     id: 'terms',
     title: 'Terms and Conditions',
-    subtitle: 'TRUE VIBES WHERE YOUR LOVE FINDS LOVE PRIVATE LIMITED | CIN: U63122MH2025PTC462886 | Last Updated: 2026',
+    subtitle: 'TRUE VIBES WHERE YOUR LOVE FINDS LOVE PRIVATE LIMITED | CIN: U63122MH2025PTC462886',
     lastUpdated: '2026',
     sections: [
       {
@@ -135,7 +135,7 @@ export const LEGAL_DOCS: Record<string, LegalDoc> = {
       },
       {
         heading: '8. Grievance Redressal Officer',
-        body: 'In accordance with the DPDP Act and the Information Technology Rules, 2021, any concerns, complaints, or questions regarding personal data processing may be addressed directly to:\n\n- Officer Name: Vishal Kisave\n- Designation: Operations Manager\n- Entity: TRUE VIBES WHERE YOUR LOVE FINDS LOVE PRIVATE LIMITED\n- Grievance Redressal Email: help.truevibes@gmail.com\n- Response Timeline: All submitted grievances will be acknowledged within 48 hours and addressed within statutory timelines.',
+        body: 'In accordance with the DPDP Act and the Information Technology Rules, 2021, any concerns, complaints, or questions regarding personal data processing may be addressed directly to:\n\n- Officer Name: Vishal Kisave\n- Designation: Operations Manager\n- Entity: TRUE VIBES WHERE YOUR LOVE FINDS LOVE PRIVATE LIMITED\n- Grievance Redressal Email: help@truevibes.in\n- Response Timeline: All submitted grievances will be acknowledged within 48 hours and addressed within statutory timelines.',
       },
       {
         heading: '9. Advertising Metrics & Meta Pixel',
@@ -227,11 +227,11 @@ export const LEGAL_DOCS: Record<string, LegalDoc> = {
       },
       {
         heading: 'Customer Support',
-        body: '- Email: help.truevibes@gmail.com\n- Phone: +91 7977004902\n- Operating Hours: Monday to Saturday, 10:00 AM – 6:00 PM IST',
+        body: '- Email: help@truevibes.in\n- Operating Hours: Monday to Saturday, 10:00 AM – 6:00 PM IST',
       },
       {
         heading: 'Grievance Redressal Officer',
-        body: '- Name: Vishal Kisave\n- Designation: Operations Manager\n- Email: help.truevibes@gmail.com\n- Response Time: Acknowledgment within 48 hours',
+        body: '- Name: Vishal Kisave\n- Designation: Operations Manager\n- Email: help@truevibes.in\n- Response Time: Acknowledgment within 48 hours',
       },
     ],
   },

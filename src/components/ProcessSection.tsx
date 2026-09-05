@@ -17,12 +17,12 @@ const onboardingCards = [
   {
     icon: UserCheck,
     title: 'Personal Guidance',
-    desc: 'After submitting your initial interest, a dedicated coordinator connects directly via our official WhatsApp to guide you through verification, explain active cycles, and manage introductions.',
+    desc: 'After submitting your initial interest, a dedicated coordinator connects directly via our official secure support desk to guide you through verification, explain active cycles, and manage introductions.',
   },
   {
     icon: Users2,
     title: 'Community Transparency',
-    desc: 'Explore our member safety guidelines, code of conduct, and authentic community feedback on our official WhatsApp resources prior to onboarding.',
+    desc: 'Explore our member safety guidelines, code of conduct, and authentic community feedback on our official secure verification resources via our secure support desk prior to onboarding.',
   },
   {
     icon: FileLock2,
@@ -42,7 +42,7 @@ const visibleSteps = [
     num: '02',
     icon: Eye,
     title: 'Verified Confidential Outreach & Privacy Priority',
-    desc: "To preserve privacy and dignity, we never share profiles as an open public directory. For enhanced safety, other members' private profiles, photos, and contact details are never shared without their explicit YES. In practice, this means we first share your verified profile for initial review. All profile sharing is done strictly based on your location and your selected category / preferences. On average, we share a profile with approximately 30-50 compatible members in a week, based on live availability. Your profile remains active for outreach during your 3-month validity period.",
+    desc: "To preserve privacy and dignity, we never share profiles as an open public directory. For enhanced safety, other members' private profiles, photos, and contact details are never shared without their explicit YES. In practice, this means we first share your verified profile for initial review. All profile sharing is done strictly based on your location and your selected category / preferences. We share a profile with compatible members based on live availability. Your profile remains active for outreach during your 3-month validity period.",
   },
   {
     num: '03',
@@ -56,8 +56,8 @@ const hiddenSteps = [
   {
     num: '04',
     icon: PhoneCall,
-    title: 'Double Confirmation & Number Exchange',
-    desc: 'When interest is shown and their profile is shared with you, the connection proceeds only after you also confirm. Personal contact details / numbers are exchanged strictly after explicit confirmation from both sides.',
+    title: 'Double Confirmation & Contact Exchange',
+    desc: 'Personal contact details are exchanged strictly after explicit confirmation from both sides.',
   },
   {
     num: '05',
