@@ -75,13 +75,13 @@ const hiddenSteps = [
     num: '07',
     icon: Settings2,
     title: 'Profile Updates & Support',
-    desc: 'During your 3-month validity, you can update your location, photos, or preferences anytime. For any updates, to know how many members your profile was shared with, or to check if any response has arrived, you can directly call or message our Customer Support number provided after onboarding.',
+    desc: 'During your 3-month validity, you can update your location, photos, or preferences anytime. For any updates, to know how many members your profile was shared with, or to check if any response has arrived, you can directly contact our official secure support desk provided after onboarding.',
   },
   {
     num: '08',
     icon: ShieldAlert,
     title: 'Operational Disclaimer, Safety & Code of Conduct',
-    desc: 'We are a curated introduction and matchmaking facilitator. We provide active outreach, continuous support, and verified profiles for 3 months; however, individual chemistry, reciprocal interest, and final relationship outcomes naturally depend on mutual affinity and cannot be guaranteed. If no mutual interest is received during the validity period, we cannot create a match forcibly.\n\nSafety & Financial Disclaimer: After a match and number exchange, any further conversation, meeting, or any kind of payment / financial transaction you do with any member is entirely at your own risk and is not our responsibility. Our role is only to facilitate verified introductions.\n\nCode of Conduct: Any form of abusive language, misbehavior, vulgar talk, or harassment towards our Customer Support team will result in instant blocking of your ID and your membership will be non-refundable.',
+    desc: 'We are a curated introduction and matchmaking facilitator. We provide active outreach, continuous support, and verified profiles for 3 months; however, individual chemistry, reciprocal interest, and final relationship outcomes naturally depend on mutual affinity and cannot be guaranteed. If no mutual interest is received during the validity period, we cannot create a match forcibly.\n\nSafety & Financial Disclaimer: After a match and contact exchange, any further conversation, meeting, or any kind of payment / financial transaction you do with any member is entirely at your own risk and is not our responsibility. Our role is only to facilitate verified introductions.\n\nCode of Conduct: Any form of abusive language, misbehavior, vulgar talk, or harassment towards our Customer Support team will result in instant blocking of your ID and your membership will be non-refundable.',
   },
 ];
 

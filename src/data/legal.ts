@@ -98,7 +98,7 @@ export const LEGAL_DOCS: Record<string, LegalDoc> = {
   privacy: {
     id: 'privacy',
     title: 'Privacy Policy',
-    subtitle: 'TRUE VIBES WHERE YOUR LOVE FINDS LOVE PRIVATE LIMITED | CIN: U63122MH2025PTC462886 | Last Updated: 2026',
+    subtitle: 'TRUE VIBES WHERE YOUR LOVE FINDS LOVE PRIVATE LIMITED | CIN: U63122MH2025PTC462886',
     lastUpdated: '2026',
     sections: [
       {
@@ -111,7 +111,7 @@ export const LEGAL_DOCS: Record<string, LegalDoc> = {
       },
       {
         heading: '2. Categories of Data Collected',
-        body: 'To ensure identity authenticity and safe introductions, we collect:\n\n- Identity Credentials: Full legal name, date of birth (to verify 21+ eligibility), marital status, gender, and government-issued ID proof (Passport, Voter ID, Driver\'s License, or other official ID).\n- Contact Details: Active telephone number, primary email address, and city of residence.\n- Matchmaking Profile Data: Professional background, lifestyle habits, partner preferences, and verified personal photographs.\n- Technical Metadata: IP address, device identifiers, browser type, and security access logs.',
+        body: 'To ensure identity authenticity and safe introductions, we collect:\n\n- Identity Credentials: Full legal name, date of birth (to verify 21+ eligibility), marital status, gender, and government-issued ID proof (Passport, Voter ID, Driver\'s License, or other official ID).\n- Contact Details: Primary email address, and city of residence -\n- Matchmaking Profile Data: Professional background, lifestyle habits, partner preferences, and verified personal photographs.\n- Technical Metadata: IP address, device identifiers, browser type, and security access logs.',
       },
       {
         heading: '3. Lawful Use of Information',
@@ -146,7 +146,7 @@ export const LEGAL_DOCS: Record<string, LegalDoc> = {
   refund: {
     id: 'refund',
     title: 'Refund and Cancellation Policy',
-    subtitle: 'TRUE VIBES WHERE YOUR LOVE FINDS LOVE PRIVATE LIMITED | CIN: U63122MH2025PTC462886 | Last Updated: 2026',
+    subtitle: 'TRUE VIBES WHERE YOUR LOVE FINDS LOVE PRIVATE LIMITED | CIN: U63122MH2025PTC462886',
     lastUpdated: '2026',
     sections: [
       {
@@ -186,7 +186,7 @@ export const LEGAL_DOCS: Record<string, LegalDoc> = {
   cookie: {
     id: 'cookie',
     title: 'Cookie and Company Policy',
-    subtitle: 'TRUE VIBES WHERE YOUR LOVE FINDS LOVE PRIVATE LIMITED | CIN: U63122MH2025PTC462886 | Last Updated: 2026',
+    subtitle: 'TRUE VIBES WHERE YOUR LOVE FINDS LOVE PRIVATE LIMITED | CIN: U63122MH2025PTC462886',
     lastUpdated: '2026',
     sections: [
       {

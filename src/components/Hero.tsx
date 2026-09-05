@@ -6,7 +6,7 @@ const BADGES = [
   { icon: Lock, label: 'Zero Public Catalog' },
 ];
 
-const COUPLE_IMG = 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80';
+const COUPLE_IMG = 'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=1200&q=80';
 
 export default function Hero() {
   return (
@@ -57,12 +57,15 @@ export default function Hero() {
             <div className="relative overflow-hidden rounded-3xl border border-champagne-400/20 shadow-2xl">
               <img
                 src={COUPLE_IMG}
-                alt="A couple sitting at a cafe table enjoying coffee together"
+                alt="A smiling couple sitting together at an outdoor daytime cafe table"
                 className="aspect-[4/3] w-full object-cover sm:aspect-video"
                 loading="eager"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-maroon-950/40 to-transparent" />
             </div>
+            <p className="mt-2.5 text-center text-xs text-cream-200/60">
+              Images are for illustrative purposes only. Featuring models, not actual members.
+            </p>
           </div>
         </div>
       </div>

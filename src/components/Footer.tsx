@@ -87,6 +87,13 @@ export default function Footer() {
           </p>
         </div>
 
+        {/* Imagery Compliance */}
+        <div className="mt-6">
+          <p className="text-xs leading-relaxed text-cream-200/50">
+            Stock imagery is used for illustrative representation only. Models depicted do not represent actual platform members.
+          </p>
+        </div>
+
         {/* Corporate details */}
         <div className="mt-8 border-t border-champagne-400/15 pt-6">
           <div className="flex flex-col gap-3 text-center sm:flex-row sm:justify-between sm:text-left">

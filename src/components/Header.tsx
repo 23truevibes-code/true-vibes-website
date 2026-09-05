@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react';
 import { Menu, X, Heart } from 'lucide-react';
 import { BRAND, NAV_LINKS } from '@/data/brand';
+import { useLegalModal } from './LegalModalContext';
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const { openModal } = useLegalModal();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -55,16 +57,29 @@ export default function Header() {
       {menuOpen && (
         <div className="lg:hidden animate-fade-in border-t border-champagne-200 bg-cream-50/98 backdrop-blur-md">
           <nav className="mx-auto flex max-w-7xl flex-col gap-1 px-5 py-4">
-            {NAV_LINKS.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                onClick={() => setMenuOpen(false)}
-                className="rounded-lg px-4 py-3 text-sm font-medium text-charcoal-800 transition hover:bg-maroon-700/5 hover:text-maroon-700"
-              >
-                {link.label}
-              </a>
-            ))}
+            {NAV_LINKS.map((link) =>
+              link.href === '#contact' ? (
+                <button
+                  key={link.href}
+                  onClick={() => {
+                    setMenuOpen(false);
+                    openModal('contact');
+                  }}
+                  className="rounded-lg px-4 py-3 text-left text-sm font-medium text-charcoal-800 transition hover:bg-maroon-700/5 hover:text-maroon-700"
+                >
+                  {link.label}
+                </button>
+              ) : (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setMenuOpen(false)}
+                  className="rounded-lg px-4 py-3 text-sm font-medium text-charcoal-800 transition hover:bg-maroon-700/5 hover:text-maroon-700"
+                >
+                  {link.label}
+                </a>
+              )
+            )}
           </nav>
         </div>
       )}
